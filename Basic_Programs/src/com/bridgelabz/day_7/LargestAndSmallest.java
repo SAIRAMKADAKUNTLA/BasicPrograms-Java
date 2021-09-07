@@ -2,7 +2,7 @@ package com.bridgelabz.day_7;
 
 import java.util.Scanner;
 
-public class largestAndSmallest {
+public class LargestAndSmallest {
 
 	public static void main(String[] args) {
 		System.out.print("Enter length of array");

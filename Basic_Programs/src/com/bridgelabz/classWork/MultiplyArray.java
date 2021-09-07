@@ -3,7 +3,7 @@ package com.bridgelabz.classWork;
 import java.util.Scanner;
 
 public class MultiplyArray {
-	public void Get() {
+	public void getOrder() {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("enter number of elements");
 		int length=scan.nextInt();
@@ -29,7 +29,7 @@ public class MultiplyArray {
 
 	public static void main(String[] args) {
 		MultiplyArray ma=new MultiplyArray();
-		ma.Get();
+		ma.getOrder();
 
 	}
 

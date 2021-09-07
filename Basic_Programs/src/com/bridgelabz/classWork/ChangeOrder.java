@@ -2,7 +2,7 @@ package com.bridgelabz.classWork;
 
 import java.util.Scanner;
 
-public class changeOrder {
+public class ChangeOrder {
 
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);

@@ -2,7 +2,7 @@ package com.bridgelabz.day_5;
 
 import java.util.Scanner;
 
-public class gambler {
+public class Gambler {
 
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);

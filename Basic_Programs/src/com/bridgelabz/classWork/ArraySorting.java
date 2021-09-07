@@ -2,7 +2,7 @@ package com.bridgelabz.classWork;
 
 import java.util.Scanner;
 
-public class arraySorting {
+public class ArraySorting {
 
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);

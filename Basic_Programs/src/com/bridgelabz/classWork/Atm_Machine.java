@@ -50,7 +50,7 @@ public class Atm_Machine {
 			}
               for(int i=0;i<9;i++) {
             	  if(withdraw >= notes[i]) {
-            		  count[i]=withdraw/notes[i];
+          		  count[i]=withdraw/notes[i];
             		  withdraw=withdraw%notes[i];
             	  }
               }

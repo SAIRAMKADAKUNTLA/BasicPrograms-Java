@@ -3,7 +3,7 @@ package com.bridgelabz.day_8;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class stringFunctions {
+public class StringFunctions {
 
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);

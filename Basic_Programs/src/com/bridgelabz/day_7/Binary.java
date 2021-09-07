@@ -2,7 +2,7 @@ package com.bridgelabz.day_7;
 
 import java.util.Scanner;
 
-public class binary {
+public class Binary {
 
 	public static void main(String[] args) {
 		System.out.print("Enter any number");

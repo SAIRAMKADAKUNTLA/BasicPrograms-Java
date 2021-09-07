@@ -2,7 +2,7 @@ package com.bridgelabz.classWork;
 
 import java.util.Scanner;
 
-public class stringArray {
+public class StringArray {
 
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);

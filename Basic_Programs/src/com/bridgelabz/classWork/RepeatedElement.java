@@ -2,7 +2,7 @@ package com.bridgelabz.classWork;
 
 import java.util.Scanner;
 
-public class repeatedElement {
+public class RepeatedElement {
 	public static void getRepeated(int[] arr1,int[] arr2) {
 		int i,j;
 		System.out.println("the repeated elements are : ");
