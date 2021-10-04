@@ -43,7 +43,7 @@ public class StdStats {
 		}
 		System.out.print("max number is : "+max(arr));
 		System.out.print("min number is : "+min(arr));
-		System.out.print("/n mean number is : "+mean(arr));
+		System.out.print("mean is : "+mean(arr));
 	}
 
 }
