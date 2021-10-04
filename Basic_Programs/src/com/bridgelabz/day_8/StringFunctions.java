@@ -20,6 +20,7 @@ public class StringFunctions {
 		System.out.println("enter the string");
 		String str=input.next();
 		palindrome(str);
+		permutation(str);
 
 	}
 	public static boolean anagram(String str1,String str2) {
@@ -53,6 +54,19 @@ public class StringFunctions {
 			System.out.println("the string is not palindrome");
 		}
 		return true;
+	}
+	public static void permutation(String permute) {
+		char[] convert=permute.toCharArray();
+		int i,j;
+		for(i=0;i<permute.length();i++) {
+			String result=" "+convert[i];
+			for(j=0;j<permute.length();j++) {
+				if(i != j) {
+					result += permute.substring(0,j)+permute.substring(j+1,permute.length());
+					System.out.print(result);
+				}
+			}
+		}
 	}
 
 }

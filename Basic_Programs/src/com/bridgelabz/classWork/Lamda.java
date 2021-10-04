@@ -1,9 +1,26 @@
 package com.bridgelabz.classWork;
 
+interface Iprime{
+	public boolean getPrime(int number);
+}
 public class Lamda {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Iprime l=(number) ->{
+			boolean check=true;
+			for(int i=2;i<=number/2;i++) {
+				if(number % i == 0) {
+					return false;
+				}
+			}
+			return true;
+		};
+		if(l.getPrime(3)) {
+			System.out.println("it is a prime");	
+		}
+		else {
+			System.out.println("it is not a prime");
+		}
 
 	}
 

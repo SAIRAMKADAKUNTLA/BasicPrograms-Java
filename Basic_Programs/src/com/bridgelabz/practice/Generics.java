@@ -20,24 +20,16 @@ public class Generics <T1,T2> {
 		ArrayList<String> list=new ArrayList<String>();
 		list.add("ram");
 		list.add("sai");
-		list.add("boom");
 		list.add("hyd");
 		System.out.println(list);
 		LinkedList<Integer> list1=new LinkedList<Integer>();
 		list1.add(21);
 		list1.add(32);
 		System.out.println(list1);
-		PriorityQueue<Integer> list2=new PriorityQueue<Integer>();
-		for(int i=10;i>0;i--) {
-			list2.add(i);
-		}
-		System.out.println(list2);
 		Generics<Integer,String> list3=new Generics<Integer,String>(24,"sairam");
 		list3.print1();
 		Integer[] arr1= {4,5,6,7};
 		Print(arr1);
-		// TODO Auto-generated method stub
-
 	}
 	public static <T> void Print(T[] array1){
 		for(T element : array1) {
