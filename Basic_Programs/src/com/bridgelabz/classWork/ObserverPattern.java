@@ -1,5 +1,7 @@
 package com.bridgelabz.classWork;
 
+import java.util.Arrays;
+
 class CricketData{
 	Average avg;
 	Score s;
@@ -25,7 +27,33 @@ class CricketData{
 		s.update(runs, wickets, overs);
 		avg.update(runs, wickets, overs);
 	}
-	
+	public void printsum(int[] arr1,int[] arr2) {
+		int[] result=new int[arr1.length];
+		for(int i=0;i<arr1.length;i++) {
+			result[i]=arr1[i]+arr2[i];
+		}
+		System.out.print(Arrays.toString(result));
+	}
+	public void unique(int[] arr1,int[] arr2) {
+		int length=arr1.length;
+		int i=0,j=0;
+		while(i<length && j<length) {
+			if(arr1[i] < arr2[j]) {
+				System.out.print(arr1[i++]+" ");
+			}
+			else if(arr2[j] < arr1[i]) {
+				System.out.print(arr2[j++]+" ");
+			}
+		    else {
+                System.out.print(arr2[j++] + " ");
+                i++;
+            }
+		}
+		while (i < length)
+            System.out.print(arr1[i++] + " ");
+        while (j < length)
+            System.out.print(arr2[j++] + " ");
+	}
 }
 class Average{
 	int scorePreciction;
@@ -64,7 +92,10 @@ public class ObserverPattern {
 		Score s=new Score();
 		CricketData c=new CricketData(a,s);
 		c.getChanged();
-		
+		int[] arr1= {3,4,5,6};
+		int[] arr2= {7,5,6,7};
+		c.printsum(arr1, arr2);
+		c.unique(arr1,arr2);
 	}
 
 }

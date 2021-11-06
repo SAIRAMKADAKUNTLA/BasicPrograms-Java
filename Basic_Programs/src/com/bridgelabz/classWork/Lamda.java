@@ -1,7 +1,8 @@
 package com.bridgelabz.classWork;
 
+@FunctionalInterface
 interface Iprime{
-	public boolean getPrime(int number);
+	 boolean getPrime(int number);
 }
 public class Lamda {
 

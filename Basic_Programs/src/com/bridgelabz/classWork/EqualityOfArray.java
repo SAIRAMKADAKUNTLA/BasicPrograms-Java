@@ -3,6 +3,7 @@ package com.bridgelabz.classWork;
 import java.util.Scanner;
 
 public class EqualityOfArray {
+	public static String name;
 	public static void getEqual(int[] arr1,int[] arr2,int length) {
 		int i,j;
 		boolean check=false;
